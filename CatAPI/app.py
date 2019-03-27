@@ -5,8 +5,8 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-from dotenv import load dotenv
-load_dotenv()
+#from dotenv import load dotenv
+#load_dotenv()
 
 @app.route('/')
 def index():
